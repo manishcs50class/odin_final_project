@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    background-color: #000000;
+    background-color: #7e7a7a;
     color: #f9faf8;
     justify-content: space-between;
 
@@ -48,15 +48,53 @@ div.menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #7e7a7a;
     height: 100px;
     color: #e5e7eb;
     font-size: 20px;
+    margin-top: auto;
 }
 
-.webpage {
+.section {
     display: flex;
+    /* flex: 200px; */
+    background-color: #141414;
+    padding: 50px
+}
+
+.welcome {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 100px;
     flex-direction: column;
-    justify-content: space-between;
-    height: inherit;
+}
+
+h2.top {
+    font-size: 32px;
+    color: #e5e7eb;
+    padding-left: 50px;
+}
+
+button {
+    margin: 0px auto 0px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+a.enter-button {
+    font-size: xx-large;
+    text-decoration: none;
+    color: #e5e7eb;
+    /* background-image: linear-gradient(to bottom, rgb(117, 117, 117), transparent); */
+    font-family: sans-serif;
+    padding-inline: 10px 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 50px;
+    padding-right: 150px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
