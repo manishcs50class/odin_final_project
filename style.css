@@ -8,11 +8,9 @@ body {
 
 .header {
     display: flex;
-    flex-direction: row;
     background-color: #7e7a7a;
     color: #f9faf8;
     justify-content: space-between;
-
 }
 
 h1 {
@@ -23,7 +21,6 @@ h1 {
 .top-links {
     text-decoration: none;
     font-size: 20px;
-    flex-wrap: wrap;
     color: #e5e7eb;
 }
 
@@ -33,26 +30,24 @@ li {
 
 ul.menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 50px;
 }
 
 div.menu {
     display: flex;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .footer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #7e7a7a;
     height: 100px;
     color: #e5e7eb;
     font-size: 20px;
-    margin-top: auto;
+
 }
 
 .section {
@@ -64,8 +59,8 @@ div.menu {
 
 .welcome {
     display: flex;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
     flex-direction: column;
 }
 
@@ -97,4 +92,12 @@ p {
     padding-right: 150px;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+.webpage {
+    height: inherit;
+}
+
+img {
+    padding-right: 50px;
 }
