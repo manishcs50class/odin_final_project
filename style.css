@@ -105,9 +105,9 @@ img.helmet {
 .central-section {
     display: flex;
     flex-direction: column;
-    flex: 2;
     background-color: #041335;
-
+    width: inherit;
+    height: 40vh;
 }
 
 ul.box {
@@ -121,8 +121,8 @@ ul.box {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32.0px;
-    font-weight: 900;
+    font-size: 36.0px;
+    font-weight: bolder;
     margin: 40px auto 40px auto;
     color: #e5e7eb;
 }
@@ -151,4 +151,27 @@ img.square {
     height: 150px;
     width: 200px;
     background-image: linear-gradient(45deg, #ffff, #074a87);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    width: inherit;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #2e6394;
+    color: #e5e7eb;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+}
+
+p.name {
+    display: flex;
+    padding-top: 50px;
+    font-size: 25px;
 }
