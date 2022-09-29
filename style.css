@@ -2,13 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* box-sizing: border-box; */
-    height: 100vh;
 }
 
 .header {
     display: flex;
-    background-color: #7e7a7a;
+    background-color: #0a205a;
     color: #f9faf8;
     justify-content: space-between;
 }
@@ -43,17 +41,17 @@ div.menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7e7a7a;
+    background-color: #0a205a;
     height: 100px;
     color: #e5e7eb;
     font-size: 20px;
 
 }
 
-.section {
+.top-section {
     display: flex;
     /* flex: 200px; */
-    background-color: #141414;
+    background-color: #040c24;
     padding: 50px
 }
 
@@ -72,15 +70,16 @@ h2.top {
 
 button {
     margin: 0px auto 0px;
-    background-color: #3b3b3b;
+
     border-radius: 10px;
 }
 
 a.enter-button {
     font-size: xx-large;
     text-decoration: none;
-    color: #e5e7eb;
+    color: #f9faf8;
     /* background-image: linear-gradient(to bottom, rgb(117, 117, 117), transparent); */
+    background-image: linear-gradient(to top, #040c24, #3a4c7a);
     font-family: sans-serif;
     padding-inline: 10px 10px;
 }
@@ -95,9 +94,61 @@ p {
 }
 
 .webpage {
-    height: inherit;
+    flex-direction: column;
+    display: flex;
 }
 
-img {
+img.helmet {
     padding-right: 50px;
+}
+
+.central-section {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: #041335;
+
+}
+
+ul.box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    padding-left: 120px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32.0px;
+    font-weight: 900;
+    margin: 40px auto 40px auto;
+    color: #e5e7eb;
+}
+
+ul.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+}
+
+a.subtext {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+    font-size: 1.5em;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+img.square {
+    display: flex;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    background-image: linear-gradient(45deg, #ffff, #074a87);
 }
