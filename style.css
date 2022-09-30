@@ -12,11 +12,13 @@ body {
 }
 
 h1 {
+    display: flex;
     align-items: center;
     padding-left: 200px;
 }
 
 .top-links {
+    display: flex;
     text-decoration: none;
     font-size: 20px;
     color: #e5e7eb;
@@ -63,12 +65,14 @@ div.menu {
 }
 
 h2.top {
+    display: flex;
     font-size: 32px;
     color: #e5e7eb;
     padding-left: 50px;
 }
 
 button {
+    display: flex;
     margin: 0px auto 0px;
     padding: 0px 15px 0px;
     border-radius: 10px;
@@ -76,6 +80,7 @@ button {
 }
 
 a.enter-button {
+    display: flex;
     font-size: xx-large;
     text-decoration: none;
     color: #f9faf8;
@@ -84,6 +89,7 @@ a.enter-button {
 }
 
 p.top-text {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
     padding-left: 50px;
@@ -98,6 +104,7 @@ p.top-text {
 }
 
 img.helmet {
+    display: flex;
     padding-right: 50px;
 }
 
